@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Parties</title>
+    <link href="party.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class = "heading">
+            <h1>Parties</h1>
+        </div>
+    </header>
+    <div class="container">
+        <button class="click">VENUE PLANNER</button>
+
+        <div class="list">
+
+            <button class="links">Plan with Harry</button>
+            <button class="links">Wedingwala</button>
+            <button class="links">The Perfectionists</button>
+            <button class="links">Love Makers</button>
+
+        </div>
+
+        <button class="click1">PHOTOGRAPHY</button>
+
+        <div class="list1">
+
+            <button class="links1">Avenue Photography</button>
+            <button class="links1">Starlight Photographers</button>
+            <button class="links1">Photolighters</button>
+            <button class="links1">Photoholics</button>
+
+        </div>
+
+        <button class="click2">MUSIC SYSTEM</button>
+
+        <div class="list2">
+
+            <button class="links2">DJ Snake</button>
+            <button class="links2">Mike Music Services</button>
+            <button class="links2">Vineeta's Music</button>
+            <button class="links2">DJ Khalid</button>
+
+        </div>
+
+        <button class="click3">DECORATION</button>
+
+        <div class="list3">
+
+            <button class="links3">Sky Decorators</button>
+            <button class="links3">Shining Decorations</button>
+            <button class="links3">Whale Enterprises</button>
+            <button class="links3">Shivam Decorations</button>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        let click = document.querySelector('.click');
+        let click1 = document.querySelector('.click1');
+        let click2 = document.querySelector('.click2');
+        let click3 = document.querySelector('.click3');
+        let list = document.querySelector('.list');
+        let list1 = document.querySelector('.list1');
+        let list2 = document.querySelector('.list2');
+        let list3 = document.querySelector('.list3');
+
+        click.addEventListener("click",()=>{
+
+            list.classList.toggle('newlist');
+
+        });
+        click1.addEventListener("click",()=>{
+
+        list1.classList.toggle('newlist1');
+        });
+        click2.addEventListener("click",()=>{
+
+        list2.classList.toggle('newlist2');
+        });
+
+        click3.addEventListener("click",()=>{
+
+        list3.classList.toggle('newlist3');
+        });
+
+    </script>
+</body>
+</html>
